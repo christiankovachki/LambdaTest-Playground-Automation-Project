@@ -1,0 +1,22 @@
+{
+  "name": "lambdatest-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-all": "npx playwright test tests",
+    "test-home-page": "npx playwright test home-page.spec.js",
+    "test-register-page": "npx playwright test register-page.spec.js",
+    "test-login-page": "npx playwright test login-page.spec.js",
+    "test-account-page": "npx playwright test my-account-page.spec.js",
+    "test-checkout-page": "npx playwright test checkout-page.spec.js"
+  },
+  "keywords": [],
+  "author": "Christian Kovachki",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.9",
+    "chance": "^1.1.11"
+  }
+}
