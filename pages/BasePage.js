@@ -29,7 +29,7 @@ export class BasePage {
 
     async clickOnElement(locator) {
 		await locator.click();
-	}
+    }
 
     async selectCheckbox(locator) {
         await locator.check();
