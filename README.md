@@ -16,9 +16,6 @@ The framework is build using JavaScript, Playwright and Page Object Model Design
 # Clone the Repository
 `git clone https://github.com/christiankovachki/LambdaTest-Playground-Automation-Project.git`
 
-# Navigate to the Project's Directory
-`cd NEEDS TO BE ADDED`
-
 # Install Dependencies
 `npm install`
 
