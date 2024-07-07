@@ -28,7 +28,7 @@ export class BasePage {
     }
 
     async clickOnElement(locator) {
-		await locator.click();
+        await locator.click();
     }
 
     async selectCheckbox(locator) {
@@ -53,9 +53,9 @@ export class BasePage {
 
     async getElementText(locator) {
         const text = await locator.textContent();
-
+        
         return text.trim();
-	}
+    }
 
     async getElementAttribute(locator, attribute) {
         return await locator.getAttribute(attribute);
