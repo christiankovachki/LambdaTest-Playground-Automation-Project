@@ -25,6 +25,20 @@ The framework is build using JavaScript, Playwright and Page Object Model Design
 `npx playwright install`
 
 # Run the Project
-All the commands are in the [package.json](https://github.com/christiankovachki/LambdaTest-Playground-Automation-Project/blob/main/package.json)
+The tests run in headless mode on Chrome.
 
-The tests run in headless mode on Chromium
+All the commands are inside the [package.json](https://github.com/christiankovachki/LambdaTest-Playground-Automation-Project/blob/main/package.json) file.
+
+`npm run test-all` - runs all tests
+
+`npm run test-home-page` - runs home-page.spec.js
+
+`npm run test-register-page` - runs register-page.spec.js
+
+`npm run test-login-page` - runs login-page.spec.js
+
+`npm run test-account-page` - runs my-account-page.spec.js
+
+`npm run test-checkout-page` - runs checkout-page.spec.js
+
+`npx playwright show-report` - opens the Playwright Report
